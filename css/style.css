@@ -1,0 +1,85 @@
+*{
+	margin: 0px;
+
+}
+body{
+	background: url(../img/bgi.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+
+}
+
+.container{
+	width: 650px;
+	margin: 10% auto;
+}
+
+.login-section{
+	background-color: #ffc0cb87;
+	padding: 25px;
+	
+}
+
+
+.login-section img{
+	width: 200px;
+    margin: 0 auto;
+    display: block;
+
+}
+
+.login-section h2{
+ 	text-align: center;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.form-container{
+	width: 95%;
+    height: 20px;
+    padding: 5px;
+    margin-bottom: 7px;
+
+}
+
+.login-btn{
+	background: lightcyan;
+    margin: 0px auto;
+    display: block;
+    border: none;
+    padding: 7px 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    transition: 0.8s ease-in-out;
+    -webkit- transition: 0.8s ease-in-out;
+    -moz-transition: 0.8s ease-in-out;
+    -o-transition: 0.8s ease-in-out;
+}
+
+.login-btn:hover{
+	box-shadow: 2px 3px 4px black;
+	cursor: pointer;
+
+}
+
+.register-btn{
+
+	padding-bottom: 15px;
+    padding-top: 10px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: -40px;
+
+}
+
+#reset-btn{
+	text-align: right;
+    font-size: 21px;
+	   
+
+
+}
